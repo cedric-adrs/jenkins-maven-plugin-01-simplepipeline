@@ -4,13 +4,15 @@ pipeline{
         stage("Checkout Code from SCM"){
             steps{
                 
-                git: '',
+                git: 'https://github.com/cedric-adrs/jenkins-maven-plugin-01-simplepipeline',
                     branch:'master',
             }
             
         }
         stage("Clean Up"){
             steps{
+
+                
                 
             }
             
